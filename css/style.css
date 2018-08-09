@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Permanent+Marker');
+
+body {
+    margin-top: 50px;
+    height: 100%;
+    font-family: 'Dosis', avenir, sans-serif;
+}
+
+h1 {
+  font-family: 'Permanent Marker',monospace;
+}
+
+.mountain {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.workplace {
+    background-image: url(../img/background-skills.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.skill {
+    position:absolute;
+    left: 0px;
+    padding-left: 20%;
+}
+
+.field {
+    background-color: #586b7a;
+    color: white;
+}
+
+.field a {
+    color: white;
+    text-decoration: none;
+}
+
+#qualifield {
+    padding-bottom: 40px;
+}
+
+#birth {
+    margin-top: 30px;
+}
+
+#img {
+    border: solid white 3px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img-quali {
+    padding: 10px;
+}
+
+.p-quali {
+    padding-top: 10px;
+}
+
+.timeline-location {
+    font-style: italic;
+    font-weight: 400;
+}
+
+#ausbildung, #berufserfahrung, #qualifikationen, #fähigkeiten, #kontakt, #interessengebiete, #sprachen, #hobbys {
+    margin-top: -50px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.label {
+    font-size: 16px;
+}
+
+#moritz{
+    text-align: right;
+}
+
+.moritz > h1{
+    padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .moritz{
+        text-align: center;
+    }
+
+    #moritz {
+        text-align: center;
+    }
+
+    .moritz > h1 {
+        padding-top: 0px;
+    }
+
+    #img {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        display: block;
+    }
+}
