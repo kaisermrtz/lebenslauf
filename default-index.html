@@ -1,106 +1,255 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="de">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="css/all.min.css">
+
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="css/timeline.css">
         <link rel="stylesheet" href="css/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-        <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#targetMobile" aria-expanded="false">
-                        <span class="sr-only">Navigation ein-/ausblenden</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="targetMobile">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#berufserfahrung">Berufserfahrung</a></li>
-                        <li><a href="#ausbildung">Ausbildung</a></li>
-                        <li><a href="#qualifikationen">Qualifikationen</a></li>
-                        <li><a href="#fähigkeiten">Fähigkeiten</a></li>
-                        <li><a href="#kontakt">Kontakt</a></li>
-                    </ul>
+        <title>👨🏼‍💻 Moritz Kaiser</title>
+    </head>
+    <body>
+        <div class="head">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-sm-4">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="img/moritz.png">
+                            <source media="(min-width: 1000px) and (max-width: 1199px)" srcset="img/moritz-1000.png">
+                            <source media="(min-width: 600px) and (max-width: 999px)" srcset="img/moritz-600.png">
+                            <source media="(max-width: 599px)" srcset="img/moritz-400.png">
+                            <img src="img/moritz.png" alt="Foto von Moritz" class="img-rounded w-100">
+                        </picture>
+                    </div>
+                    <div class="col-sm-8 text-center mt-3">
+                            <h1 id="name" class="mt-1 mt-sm-5">Moritz Kaiser</h1>
+                            <h2 id="title">Machine Learning and Software Engineer</h2>
+                            <p id="links">
+                                <a href="mailto:m.kaiser94@googlemail.com" class="primary-link">
+                                    <i class="far fa-envelope"></i>
+                                </a>
+
+                                <a href="https://www.xing.com/profile/Moritz_Kaiser17/" target="_blank" class="primary-link">
+                                    <i class="fab fa-xing"></i>
+                                </a>
+                                
+                                <a href="https://github.com/kaisermrtz" target="_blank" class="primary-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </p>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <div class="field">
+            <svg class="svg-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path fill="#2A9D8F" fill-opacity="1" d="M0,192L80,165.3C160,139,320,85,480,85.3C640,85,800,139,960,149.3C1120,160,1280,128,1360,112L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            </svg>
+        </div>
+        <div class="green-bg pb-3">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 col-xs-12 moritz" id="moritz">
-                        <h1>Moritz</h1>
-                    </div>
-                    <div class="col-sm-4 col-xs-12">
-                        <div id="imgdiv">
-                            <img id="img" src="moritz.png" class="img-rounded img-responsive" alt="Bild von Moritz Kaiser">
+                <h1 class="text-white">Skill Set</h1>
+                <div class="card-columns mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fab fa-js"></i> Full Stack Web Development</h5>
+                            <p class="card-text">
+                                <b>Backend:</b> Meteor.js, Node.js, Python Flask<br>
+                                <b>Data:</b> MongoDB, SQL<br>
+                                <b>Frontend:</b> Blaze, Vue
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <p>
+                                <a href="https://www.google.com/search?q=javascript" target="_blank" class="primary-link">#javascript</a>
+                                <a href="https://www.google.com/search?q=node js" target="_blank" class="primary-link">#nodejs</a>
+                                <a href="https://www.google.com/search?q=python flask" target="_blank" class="primary-link">#flask</a>
+                                <a href="https://www.google.com/search?q=html" target="_blank" class="primary-link">#html</a>
+                                <a href="https://www.google.com/search?q=css" target="_blank" class="primary-link">#css</a>
+                                <a href="https://www.google.com/search?q=MongoDB" target="_blank" class="primary-link">#mongodb</a>
+                                <a href="https://www.google.com/search?q=sql" target="_blank" class="primary-link">#sql</a>
+                                <a href="https://www.google.com/search?q=blaze template" target="_blank" class="primary-link">#blaze</a>
+                                <a href="https://www.google.com/search?q=vue js" target="_blank" class="primary-link">#vue</a>
+                            </p>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-xs-12 moritz">
-                        <h1>Kaiser</h1>
+            
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-project-diagram"></i> Machine Learning</h5>
+                            <p class="card-text">
+                                Deep Learning with Keras in Python
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <p>
+                                <a href="https://www.google.com/search?q=deep learning" target="_blank" class="primary-link">#deeplearning</a>
+                                <a href="https://www.google.com/search?q=natural language processing" target="_blank" class="primary-link">#nlp</a>
+                                <a href="https://www.google.com/search?q=keras" target="_blank" class="primary-link">#keras</a>
+                                <a href="https://www.google.com/search?q=convolutional neural networks" target="_blank" class="primary-link">#cnn</a>
+                                <a href="https://www.google.com/search?q=long short-term memory" target="_blank" class="primary-link">#lstm</a>
+                            </p>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-mobile"></i> App Development</h5>
+                            <p class="card-text">
+                                iOs and watchOs Apps with SWIFT
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <p>
+                                <a href="https://www.google.com/search?q=ios" target="_blank" class="primary-link">#ios</a>
+                                <a href="https://www.google.com/search?q=apple watch os" target="_blank" class="primary-link">#watchos</a>
+                                <a href="https://www.google.com/search?q=apple swift" target="_blank" class="primary-link">#swift</a>
+                                <a href="https://www.google.com/search?q=bluetooth le" target="_blank" class="primary-link">#bluetoothle</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-brain"></i> Other</h5>
+                            <p class="card-text">
+                                <b>Developer:</b> Git, Heroku, AWS<br>
+                                <b>Scientific skills:</b> experimental design, SPSS<br>
+                                <b>Design:</b> Adobe Photoshop, Adobe XD<br>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <p>
+                                <a href="https://www.google.com/search?q=git" target="_blank" class="primary-link">#git</a>
+                                <a href="https://www.google.com/search?q=heroku" target="_blank" class="primary-link">#heroku</a>
+                                <a href="https://www.google.com/search?q=amazon web services" target="_blank" class="primary-link">#aws</a>
+                                <a href="https://www.google.com/search?q=ibm spss" target="_blank" class="primary-link">#spss</a>
+                                <a href="https://www.google.com/search?q=adobe photoshop" target="_blank" class="primary-link">#photoshop</a>
+                                <a href="https://www.google.com/search?q=adobe xd" target="_blank" class="primary-link">#xd</a>
+                                <a href="https://www.google.com/search?q=ux/ui design" target="_blank" class="primary-link">#uxuidesign</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-language"></i> Languages</h5>
+                            <p class="card-text">
+                                <b>German</b>: native speaker<br>
+                                <b>English</b>: fluent
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <p>
+                                <a href="https://www.google.com/search?q=german" target="_blank" class="primary-link">#german</a>
+                                <a href="https://www.google.com/search?q=english" target="_blank" class="primary-link">#english</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="mountain">
+        <svg class="svg-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#2A9D8F" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,208C640,213,800,139,960,122.7C1120,107,1280,149,1360,170.7L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+        </svg>
+        <div class="history my-5">
             <div class="container">
-
-                <h1 id="berufserfahrung">Berufserfahrung</h1>
+                <h1>Professional Experience</h1>
                 <ul class="timeline">
                     <li>
                         <div class="timeline-badge info"></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h6 class="timeline-location"><i class="glyphicon glyphicon-education"></i> Universität Duisburg-Essen</h6>
-                                <h4 class="timeline-title">Studentische Hilfskraft</h4>
-                                <p><small><i class="glyphicon glyphicon-time"></i> 10/2015 - 02/2018</small></p>
+                                <h6 class="timeline-location">
+                                    <i class="fas fa-graduation-cap"></i> 
+                                    <a href="https://www.uni-due.de/en/" target="_blank">Universität Duisburg-Essen</a>
+                                </h6>
+                                <h4 class="timeline-title">Student Assistant</h4>
+                                <p><small><i class="glyphicon glyphicon-time"></i> 10.2015 - 02.2018</small></p>
                             </div>
                             <div class="timeline-body">
-                                <p>Jeweils für ein Semester habe ich verschiedene Veranstaltungen als Tutor betreut. Zu meinen Aufgaben gehörten das Lehren in Tutorien, die Vorbereitung von Übungsfolien und die Korrektur von Übungsaufgaben. Folgende Veranstaltungen wurden von mir betreut: </p>
-                                <ul>
-                                    <li>Informatische Grundlagen neuer Medien und Kommunikationstechniken</li>
-                                    <li>Digitale Medien</li>
-                                    <li>Mensch-Computer-Interaktion</li>
+                                <p>
+                                    One semester each I supervised various student exercises as a tutor. 
+                                    My responsibilites included teaching, preparing exercise slides and correcting exercises.
+                                    I supervised the following lectures:
+                                </p>
+                                <ul class="mt-2">
+                                    <li>Foundations of Computer Science (Informatische Grundlagen neuer Medien und Kommunikationstechniken)</li>
+                                    <li>Digital Media (Digitale Medien)</li>
+                                    <li>Human-Computer-Interaction (Mensch-Computer-Interaktion)</li>
                                 </ul>
                             </div>
                         </div>
                     </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge info"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h6 class="timeline-location">
+                                    <i class="fas fa-user-tie"></i> 
+                                    <a href="http://www.kitext.de/" target="_blank">Kitext GmbH</a>
+                                </h6>
+                                <h4 class="timeline-title">Web Development Assistant</h4>
+                                <p><small><i class="glyphicon glyphicon-time"></i> 10.2018 - 09.2019</small></p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    At Kitext, a young startup, the team strived to make the internet a safer 
+                                    space for children.<br>
+                                    I was part of the development team that was responsible for developing the web 
+                                    application and website, ui design and developing new features, etc. <br>
+                                    Most of the time I was working front- and backend for the product WhatsSafe.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
 
-                <h1 id="ausbildung">Ausbildung</h1>
+                <h1 id="ausbildung">Education</h1>
 
                 <ul class="timeline">
                     <li>
                         <div class="timeline-badge info"></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h6 class="timeline-location"><i class="glyphicon glyphicon-education"></i> Universität Duisburg-Essen</h6>
-                                <h4 class="timeline-title">Angewandte Kognitions- und Medienwissenschaft, Master</h4>
-                                <p><small><i class="glyphicon glyphicon-time"></i> seit 10/2017</small></p>
+                                <h6 class="timeline-location"><i class="fas fa-graduation-cap"></i> Universität Duisburg-Essen</h6>
+                                <h4 class="timeline-title">
+                                    <a href="https://www.uni-due.de/studienangebote/studiengang.php?id=6" target="_blank">
+                                        Applied cognition and media science (master degree)
+                                    </a>
+                                </h4>
+                                <p><small><i class="glyphicon glyphicon-time"></i> since 10.2017</small></p>
                             </div>
                             <div class="timeline-body">
-                                <p>Schwerpunkt: Informatik</p>
+                                <p>Emphasis on computer science</p>
                             </div>
                         </div>
                     </li>
+                    
                     <li class="timeline-inverted">
                         <div class="timeline-badge info"></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h6 class="timeline-location"><i class="glyphicon glyphicon-education"></i> Universität Duisburg-Essen</h6>
-                                <h4 class="timeline-title">Angewandte Kognitions- und Medienwissenschaft, Bachelor</h4>
-                                <p><small><i class="glyphicon glyphicon-time"></i> 10/2014 - 09/2017</small></p>
+                                <h6 class="timeline-location"><i class="fas fa-graduation-cap"></i> Universität Duisburg-Essen</h6>
+                                <h4 class="timeline-title">
+                                    <a href="https://www.uni-due.de/studienangebote/studiengang.php?id=5" target="_blank">
+                                        Applied cognition and media science (bachelor degree)
+                                    </a>
+                                </h4>
+                                <p><small><i class="glyphicon glyphicon-time"></i> 10.2014 - 09.2017</small></p>
                             </div>
                             <div class="timeline-body">
-                                <p>Abschlussarbeit: "Realisierung und Evaluierung eines Augmented-Reality basierten Produktberates auf Basis der Microsoft Hololens"</p>
-                                <p>Abschlussnote: 1,5</p>
+                                <p>thesis title: "Conception and evaluation of an augmented reality product advisor based on Microsoft Hololens"</p>
+                                <p>final grade: very good (1,5)</p>
                             </div>
                         </div>
                     </li>
@@ -108,9 +257,9 @@
                         <div class="timeline-badge info"></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h6 class="timeline-location"><i class="glyphicon glyphicon-globe"></i> Australien</h6>
-                                <h4 class="timeline-title">Auslandsaufenthalt</h4>
-                                <p><small><i class="glyphicon glyphicon-time"></i> 07/2013 - 04/2014</small></p>
+                                <h6 class="timeline-location"><i class="fas fa-globe-asia"></i> Australia</h6>
+                                <h4 class="timeline-title">Stay abroad</h4>
+                                <p><small><i class="glyphicon glyphicon-time"></i> 07.2013 - 04.2014</small></p>
                             </div>
                             <div class="timeline-body">
                             </div>
@@ -120,9 +269,9 @@
                         <div class="timeline-badge info"></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h6 class="timeline-location"><i class="glyphicon glyphicon-education"></i> Städtisches Gymnasium Sundern</h6>
+                                <h6 class="timeline-location"><i class="fas fa-school"></i> Städtisches Gymnasium Sundern</h6>
                                 <h4 class="timeline-title">Abitur</h4>
-                                <p><small><i class="glyphicon glyphicon-time"></i> 08/2005 - 06/2013</small></p>
+                                <p><small><i class="glyphicon glyphicon-time"></i> 08.2005 - 06.2013</small></p>
 
                             </div>
                             <div class="timeline-body">
@@ -130,170 +279,47 @@
                         </div>
                     </li>
                 </ul>
-
+            </div>
+            
+        </div>
+        <svg class="svg-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#2A9D8F" fill-opacity="1" d="M0,192L80,165.3C160,139,320,85,480,85.3C640,85,800,139,960,149.3C1120,160,1280,128,1360,112L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+        </svg>
+        <div class="green-bg">
+            <div class="container text-white">
+                <h1>Hobbys</h1>
+                <ul id="hobbys">
+                    <li><i class="fas fa-passport"></i> traveling (2 of 7 wonders of the world)</li>
+                    <li><i class="fas fa-camera-retro"></i> travel photography</li>
+                    <li><i class="fas fa-running"></i> running</li>
+                    <li><i class="fas fa-code"></i> coding</li>
+                </ul>
             </div>
         </div>
+        <svg class="svg-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#2A9D8F" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,208C640,213,800,139,960,122.7C1120,107,1280,149,1360,170.7L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+        </svg>
+        
+        <!-- jQuery, Popper.js, Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <!-- Vanta (the net) -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"></script>
+        <script src="js/vanta.net.min.js"></script>
+        <script>
+            VANTA.NET({
+            el: ".head",
+            color: 0x2A9D8F,
+            backgroundColor: 0xffffff,
+            points: 5.00,
+            maxDistance: 28.00,
+            spacing: 19.00
+            })
+        </script>
 
-        <div class="field" id="qualifield">
-            <div class="container">
-                <h1 id="qualifikationen">Weitere Qualifikationen</h1>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="col-sm-3">
-                            <img src="attachments/DerKompletteWebentwickler.pdf" class="img-responsive img-quali" alt="Abschlusszertifikat zum Udemy Kurs" onerror="this.onerror=null; this.src='attachments/DerKompletteWebentwickler.jpg';" >
-                        </div>
-                        <div class="col-sm-9">
-                            <p class="p-quali"><a href="https://www.udemy.com/share/1000pM/" target="_blank" >Udemy Kurs: "Der komplette Web-Entwickler Kurs 2.0 - Erstelle 25 Webseiten"</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="col-sm-3">
-                            <img src="attachments/JavaFX.pdf" class="img-responsive img-quali" alt="Abschlusszertifikat zum Udemy Kurs" onerror="this.onerror=null; this.src='attachments/JavaFX.jpg';">
-                        </div>
-                        <div class="col-sm-9">
-                            <p class="p-quali"><a href="https://www.udemy.com/share/100orU/" target="_blank">Udemy Kurs: "Der Ultimative JavaFX 8 GUI Kurs - Dein Weg zu tollen GUIs"</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                         <div class="col-sm-3">
-                            <img src="attachments/NodeJS.pdf" class="img-responsive img-quali" alt="Abschlusszertifikat zum Udemy Kurs" onerror="this.onerror=null; this.src='attachments/NodeJS.jpg';">
-                        </div>
-                        <div class="col-sm-9">
-                            <p class="p-quali"><a href="https://www.udemy.com/share/10007C/" target="_blank">Udemy Kurs: "The Complete Node.js Developer Course (2nd Edition)"</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                         <div class="col-sm-3">
-                            <img src="attachments/WatchOS.pdf" class="img-responsive img-quali" alt="Abschlusszertifikat zum Udemy Kurs" onerror="this.onerror=null; this.src='attachments/WatchOS.jpg';">
-                        </div>
-                        <div class="col-sm-9">
-                            <p class="p-quali"><a href="https://www.udemy.com/share/100pU4A0oTdV1RQng=/" target="_blank">Udemy Kurs: "Entwickle watchOS 3 Apps mit Swift"</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="workplace">
-            <div class="container">
-                <h1 id="sprachen">Sprachen</h1>
-                <div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">Deutsch (Muttersprache)</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">Englisch (Fließend)</span>
-                        </div>
-                    </div>
-                </div>
-
-                <h1 id="fähigkeiten">Fähigkeiten</h1>
-                <div id="skills">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">HTML</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">Javascript/jQuery</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">Node.js</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">SWIFT</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">CSS</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">SQL</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">Java/JavaFX</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">MongoDB</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">MS Office</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">Wissenschaftliche Studien</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">Adobe Photoshop</span>
-                        </div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                            <span class="skill">SPSS</span>
-                        </div>
-                    </div>
-                </div>
-
-                <h1 id="interessengebiete">Interessengebiete & Vorerfahrung</h1>
-                <div>
-                    <p><span class="label label-primary">Recommender Systems</span></p>
-                    <p><span class="label label-primary">Machine Learning</span></p>
-                    <p><span class="label label-primary">Web</span></p>
-                    <p><span class="label label-primary">UX/UI Design</span></p>
-                    <p><span class="label label-primary">Bluetooth LE</span></p>
-                    <p><span class="label label-primary">iOS Entwicklung</span></p>
-                    <p><span class="label label-primary">watchOS Entwicklung</span></p>
-                    <p><span class="label label-primary">Heroku</span></p>
-                    <p><span class="label label-primary">Git</span></p>
-                </div>
-
-                <h1 id="hobbys">Hobbys</h1>
-                <div>
-                    <p><span class="label label-primary">Reisen (2 von 7 Weltwundern)</span></p>
-                    <p><span class="label label-primary">Reise-Fotografie</span></p>
-                    <p><span class="label label-primary">Joggen</span></p>
-                    <p><span class="label label-primary">Programmierung</span></p>
-                    <br>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="field">
-            <div class="container">
-                <h1 id="kontakt">Kontakt</h1>
-                <div>
-                    <p><i class="glyphicon glyphicon-home"></i>  Duisburger Str. 428, 45478 Mülheim an der Ruhr</p>
-                    <p><i class="glyphicon glyphicon-earphone"></i>  0152 31037702</p>
-                    <p><i class="glyphicon glyphicon-envelope"></i>  <a href="mailto:m.kaiser94@googlemail.com">m.kaiser94@googlemail.com</a></p>
-                    <p><i class="glyphicon glyphicon-floppy-disk"></i>  <a href="https://github.com/kaisermrtz" target="_blank">Github: kaisermrtz</a></p>
-                    <p><i class="glyphicon glyphicon-calendar"></i>  05. August 1994 in Arnsberg</p>
-                </div>
-            </div>
-        </div>
-
-        <script src="js/jquery.min.js" ></script>
+        <!-- Optional JavaScript -->
         <script src="js/script.js"></script>
-        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

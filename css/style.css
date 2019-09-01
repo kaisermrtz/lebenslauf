@@ -1,113 +1,101 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis|Permanent+Marker');
-
 body {
-    margin-top: 50px;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Roboto Slab', serif;
     height: 100%;
-    font-family: 'Dosis', avenir, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-  font-family: 'Permanent Marker',monospace;
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Raleway', sans-serif;
+    
 }
 
-.mountain {
-    background-image: url(../img/background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+.svg-bottom {
+    margin-top: -1px;
 }
 
-.workplace {
-    background-image: url(../img/background-skills.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+.svg-top {
+    margin-bottom: -1px;
 }
 
-.skill {
-    position:absolute;
-    left: 0px;
-    padding-left: 20%;
+.primary-link {
+    color: #2A9D8F;
 }
 
-.field {
-    background-color: #586b7a;
-    color: white;
-}
-
-.field a {
-    color: white;
+.primary-link:hover {
     text-decoration: none;
+    color: #000;
 }
 
-#qualifield {
-    padding-bottom: 40px;
+@media (min-width: 769px) {
+    #name {
+        font-size: 50pt;
+    }
+    
+    #title {
+        font-size: 22pt;
+    }
+    
+    #links {
+        font-size: 20pt;
+    }
 }
 
-#birth {
-    margin-top: 30px;
+@media (max-width: 768px) {
+    #name {
+        font-size: 30pt;
+    }
+    
+    #title {
+        font-size: 16pt;
+    }
+    
+    #links {
+        font-size: 18pt;
+    }
 }
 
-#img {
-    border: solid white 3px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
 
-.img-quali {
-    padding: 10px;
+.green-bg {
+    background-color: #2A9D8F;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
-.p-quali {
-    padding-top: 10px;
+.card {
+    transition: transform 0.5s;
 }
 
-.timeline-location {
+.card:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.timeline-location a{
+    color: white;
     font-style: italic;
     font-weight: 400;
 }
 
-#ausbildung, #berufserfahrung, #qualifikationen, #fähigkeiten, #kontakt, #interessengebiete, #sprachen, #hobbys {
-    margin-top: -50px;
-    padding-top: 70px;
-    padding-bottom: 10px;
+.timeline-title a {
     color: white;
 }
 
-.label {
-    font-size: 16px;
-}
-
-#moritz{
-    text-align: right;
-}
-
-.moritz > h1{
-    padding-top: 80px;
-}
-
-@media (max-width: 768px) {
-    .moritz{
-        text-align: center;
-    }
-
-    #moritz {
-        text-align: center;
-    }
-
-    .moritz > h1 {
-        padding-top: 0px;
-    }
-
-    #img {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-        display: block;
-    }
+#hobbys {
+    list-style: none;
+    font-size: 16pt;
+    padding: 0;
+    margin: 0;
 }
