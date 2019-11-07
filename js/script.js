@@ -10,16 +10,4 @@ $(document).on("scroll", function () {
             $(tag).addClass("visible");
         }
     }
-
-    var progressbars = $(".progress");
-
-    var progressbar = progressbars[i];
-
-    if ($(progressbar).position().top < pageBottom-100){
-        $('.progress .progress-bar').css("width",
-            function() {
-                return $(this).attr("aria-valuenow") + "%";
-            }
-        );
-    }
 });
