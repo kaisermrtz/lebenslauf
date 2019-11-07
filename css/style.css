@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-link {
-    color: #2A9D8F;
+    color: #4E8098;
 }
 
 .primary-link:hover {
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .green-bg {
-    background-color: #2A9D8F;
+    background-color: #4E8098;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
